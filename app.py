@@ -8,7 +8,7 @@ def home():
         name = request.form["name"]
         message = f"Иди на хуй!, {name}!"
 
-    return render_template('index.html', message=message)
+    return render_template("index.html", message=message)
 
 @app.route("/about")
 def about():
