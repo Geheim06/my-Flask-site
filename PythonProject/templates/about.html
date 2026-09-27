@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta charset="UTF-8">
+    <title>О сайте</title>
+</head>
+<style>
+    * {
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        front-family: Arial, sans-serif;
+        background: #0f172a;
+        color: white;
+    }
+
+    header {
+        backround: #1e293b;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        front-size: 24px;
+        front-weight: bold;
+        color: #38bdf8;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-lift: 25px;
+        transition: 0.3s;
+    }
+    nav a:hover {
+        color: #38bdf8;
+    }
+    .about {
+        max-width: 900px;
+        margin: 80px auto;
+        padding: 40px;
+        background: #1e293b;
+        border-raduis: 20px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .about h1 {
+        font-size: 45px;
+        margin-bottom: 200px;
+        color: #38bdf8;
+    }
+    .button {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 14px 30px;
+        background: #38bdf8;
+        color: #0f172a;
+        text-decoration:none;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .about p {
+        font-size: 18px;
+        line-height: 1.7;
+        color: #cbd5e1;
+    }
+    .button:hover {
+        background: #0ea5e9;
+        transform: translateY(-2px);
+    }
+    @media (max-width: 600px) {
+        header {
+            padding: 20px;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .about {
+            margin: 40px 20px;
+            padding: 25px;
+        }
+        .about h1 {
+            font-size: 35px;
+        }
+        .about p {
+            font-size: 16px;
+        }
+</style>
+<body>
+<section>
+    <div class="about">
+<h1>О нашем сайте</h1>
+<p>Добро пожаловать на мой Сайт!
+    Здесь я изучаю веб-разработку и создаю свой первые проекты.
+</p>
+<h2>Что вообще есть на сайте?</h2>
+<p>Здесь можно дрочить на пустую страницу и полюбовастья на мой Проект (пока конечно пустой ):) и на этом все.
+</p>
+<h2>О создателе:</h2>
+<p>Этот сайт создан мной в процессе изучение HTML, Python, и Flask ( и не без помощи ChatGPT).
+</p>
+    </div>
+</section>
+<section>
+    <div class="nav a">
+<a href="/" class="button">Вернустья на главную</a>
+    </div>
+</body>
+</html>
