@@ -22,4 +22,4 @@ def contact():
         message = f"ПОШЕЛ НА ХУЙ!, {name}!"
     return render_template("contact.html", message=message)
 if __name__ == "__main__":
- app.run  (debug=True)
+ app.run (debug=True)
